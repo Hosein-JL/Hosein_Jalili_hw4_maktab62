@@ -1,0 +1,24 @@
+* {
+  background-color: #59a7ce;
+}
+
+.box {
+  text-align: justify;
+  overflow: auto;
+  color: #0a0a0a;
+  padding: 5px;
+}
+
+.box ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box > img {
+  float: right;
+  width: 200px;
+  margin: 10px;
+}
+
+

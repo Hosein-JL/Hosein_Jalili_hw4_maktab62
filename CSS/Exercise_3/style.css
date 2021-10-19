@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: 10px;
+}
+.col {
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blue {
+  background-color: rgb(68, 138, 228);
+}
+.gray {
+  background-color: rgb(223, 223, 223);
+}
+.orange {
+  background-color: rgb(231, 187, 93);
+}
+.green {
+  background-color: rgb(93, 231, 190);
+}
+.red {
+  background-color: rgb(231, 93, 127);
+}
+
+.Web {
+  margin: 15px 0;
+  color: white;
+  font-weight: normal;
+}
+.content {
+  padding-bottom: 20px;
+  color: white;
+}
+.color-code {
+  font-size: 1.1em;
+}
